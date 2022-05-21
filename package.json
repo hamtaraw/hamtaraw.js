@@ -1,0 +1,41 @@
+{
+  "name": "hamtaraw",
+  "version": "1.0.1",
+  "description": "Front-end development with Hamtaraw framework",
+  "main": "index.js",
+  "author": "Phil'dy Jocelyn Belcou <pj.belcou@gmail.com> (https://github.com/cejobelo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamtaraw/hamtaraw.js.git"
+  },
+  "keywords": [
+    "hamtaraw",
+    "hamtaraw.js"
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-strict-mode": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "autoprefixer": "^10.4.5",
+    "babel-loader": "^8.2.5",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^6.7.1",
+    "ignore-loader": "^0.1.2",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.22.5",
+    "jquery": "^3.6.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
